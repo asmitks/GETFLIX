@@ -1,5 +1,5 @@
 # GETFLIX
-This is a movie recommendation system based on collaborative learning (user-user and item-item) which was applied on the IMDB 
+This is a :movie_camera: movie recommendation system based on collaborative learning (user-user and item-item) which was applied on the IMDB 
 database.The recommendation system asks for ratings on 4 or more movies out of approx. 500 movies and returns 4 recommendations each
 for User-User and Item-Item collaborative learning algorithms.
 ![alt text](https://raw.githubusercontent.com/asmitks/images/master/a.png)
