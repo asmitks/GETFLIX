@@ -9,7 +9,7 @@ for User-User and Item-Item collaborative learning algorithms.
 - Mongo DB
 - Docker
 - Heroku
-- MLAB
+- mlab
 - PyMongo
 - Flask
 - HTML/CSS
