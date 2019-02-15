@@ -7,19 +7,22 @@ for User-User and Item-Item collaborative learning algorithms.
 ## Tools Used
 - Python 3.5
 - Mongo DB
+- Docker
+- Heroku
+- MLAB
 - PyMongo
 - Flask
 - HTML/CSS
 - Pandas
 - Beautiful soup
-- MLAB
+
 
 ## Sources Referred
 - **Collective Intelligence** by *Toby Segaran* 
 
 ## How to Use?
 
-You can find the hosted app here [GETFLIX]()
+You can find the hosted app here [GETFLIX](https://get1flix.herokuapp.com/)
 
 ### How to use the app?
 
@@ -30,7 +33,8 @@ you can rate the movies by moving the slider thumb to 5 possible positions from 
 
         
       
-![alt text](https://raw.githubusercontent.com/asmitks/images/master/Screenshot from 2019-02-14 01-14-41.png)
+![alt text](https://raw.githubusercontent.com/asmitks/images/master/123.png)
+
 
 You will be presented 4 recommendations each of user-user and item-item collaborative learning.
 > It is possible that user-user algo doesn't return 4 movies due to its dependency on the data of user ratings.
