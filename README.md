@@ -61,6 +61,7 @@ Template is returned when user-user algo does not return answer.
 ## static
 contains the css file style.css
 ## Other
+It contains all raw data taken from movie lense.
 ### mongs.py
 Used for creating mongo db database after data cleaning 
 ``` bash 
@@ -86,4 +87,14 @@ docker build -t flask-getflix:latest .
 To run the app:
 ```bash 
  docker run flask-getflix
+```
+## How to access mongoDB collections using mongolab.
+The mongoDB collections that I used can be accessed thorough 
+#### imdb database
+``` bash
+MONGODB_URI='mongodb://asmit:Mama123456@ds043062.mlab.com:43062/imdb'
+```
+#### data_imdb
+``` bash
+MONGODB_URI='mongodb://asmit:Mama123456@ds127825.mlab.com:27825/data_imdb'
 ```
