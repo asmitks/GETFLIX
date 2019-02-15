@@ -1,0 +1,186 @@
+
+body {
+	font-size:12px;
+	line-height:1.3;
+	font-family:Arial, Helvetica, Sans-Serif;
+	color:#ccc;
+ /* background:url('https://images.wallpaperscraft.com/image/feathers_black_dark_121182_3840x2160.jpg');  */
+	background-color: #141414;
+}
+/* for the moving text */
+marquee{
+	color:#E50914;
+	font-size:10px;
+	letter-spacing: 3px;
+	word-spacing: 7 px;
+	font-family: 'Orbitron', sans-serif;
+}
+/* for te main title */
+#maintitle{
+	color:#0DD681;
+	font-size:50px;
+	font-family: 'Major Mono Display', monospace;
+	-webkit-transition: color 1s;
+    -moz-transition:    color 1s;
+    -ms-transition:     color 1s;
+    -o-transition:      color 1s;
+    transition:         color 1s;
+}
+#maintitle:hover{
+	color:#E50914;
+	font-size:50px;
+
+}
+
+
+/* for the main unit */
+#shell {
+	width:980px;
+	margin-left: 100px;
+	margin-right: 0px;
+}
+
+
+#item{
+	margin-top: 20 px;
+
+}
+
+
+
+
+
+.box {
+	width: 1800px;
+	
+}
+
+
+.box .movie {
+	width:152px;
+	float:left;
+	padding-left: 12px;	
+	padding-right:12px;
+}
+.movie-image {
+	float:left;
+	width:152px;
+	height:214px;
+	position:relative;
+}
+.movie-image img {
+	width:152px;
+	height:214px;
+	border: white;
+}
+
+.play {
+	position:absolute;
+	top:0;
+	left:0;
+	width:152px;
+	height:214px;
+	display:block;
+	z-index:5;
+	
+}
+
+
+/* for movie name and year */
+.rating p {
+	float:left;
+	font-size:12px;
+	color:#0DD681;
+	font-family: 'Orbitron', sans-serif;
+	font-weight:bold;
+}
+
+
+
+
+
+
+
+.content img {
+	float:left;
+	width:68px;
+	padding-right:8px;
+}
+
+.content a {
+	font-size:11px;
+}
+/* slider for ratings */
+.slidecontainer {
+	width: 100%;
+  }
+  
+  .slider {
+	-webkit-appearance: none;  
+	appearance: none;
+	width: 100%; 
+	height: 10px;
+	background:white;
+	outline: none; 
+	opacity: 0.7; 
+	-webkit-transition: 0.2s; 
+	transition: opacity 1s;
+  }
+  
+  
+  .slider:hover {
+	opacity: 1; 
+  }
+  
+  .slider::-webkit-slider-thumb {
+	-webkit-appearance: none; 
+	appearance: none;
+	width: 20px; 
+	height: 10px;
+	background: rgb(7, 163, 59); 
+	cursor: pointer; 
+  }
+  .slider::-webkit-slider-thumb:hover{
+	background: #E50914;
+  }
+
+  li{
+	color:#141414;
+}
+
+.icon-bar {
+  position: fixed;
+  top: 96%;
+  left: 5%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  z-index:1000;
+  border-color:#141414;
+}
+
+.icon-bar input {
+	cursor: pointer;
+	background-color:#0DD681; 
+	border-radius: 25px;
+	color: #D6750D;
+	border-color: #141414;
+  display: inline-block;
+  text-align: center;
+  padding: 19px 805px;
+  transition: all 0.3s ease;
+  /*color: white;*/
+  font-size: 15px;
+  font-family: 'Major Mono Display', monospace;
+  z-index:1000
+}
+
+.icon-bar input:hover {
+  background-color: #000;
+}
+
+.facebook {
+  background: red;
+  color: white;
+}
+  
