@@ -44,3 +44,46 @@ for explanation behind the algos and a brief report refer to `Report.pdf`
 
 ## Code Details
 Brief description of folder/files in the repo.
+
+## app.py
+The main python3 flask file that contains the main algorithms and logic
+#### how to run
+```bash
+python3 app.py 
+```
+## templates
+#### score.html
+Main template that is returned as the home page
+#### recommend.html
+Template that is returned when both algos return answers
+#### recommend1.html
+Template is returned when user-user algo does not return answer.
+## static
+contains the css file style.css
+## Other
+### mongs.py
+Used for creating mongo db database after data cleaning 
+``` bash 
+python3 other/mongs.py
+```
+### scrape.py
+Used for scraping thumbnails from dedicated sites of imdb
+```bash 
+python3 other/scrape.py
+```
+### change.py
+Used for printing required tags that need to be inserted into HTML file.
+```
+bash python3 other/change.py
+```
+## Dockerfile
+Used to run using docker
+commands to run using docker
+To run the dockerfile:
+```bash 
+docker build -t flask-getflix:latest .
+```
+To run the app:
+```bash 
+ docker run flask-getflix
+```
