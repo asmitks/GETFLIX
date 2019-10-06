@@ -1,4 +1,5 @@
 # This is the main flask app file that holds logic for both the recommendations
+#this was made by admit
 from flask import Flask, render_template,request,redirect,url_for,jsonify # For flask implementation  
 from bson import ObjectId # For ObjectId to work  
 from pymongo import MongoClient  
